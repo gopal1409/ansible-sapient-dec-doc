@@ -12,3 +12,4 @@ sudo -i
  
  ###then go back to master machine
  ssh root@client
+ exit
