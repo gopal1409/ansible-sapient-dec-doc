@@ -1,0 +1,8 @@
+###master node configuration
+sudo -i
+ 1  apt-get update
+    2  apt install ansible
+    3  ssh-keygen -t rsa
+    4  cat /root/.ssh/id_rsa.pub
+    ###now check the ping to the client machine you can replace the client machine name with your name configure
+    5  ping client
